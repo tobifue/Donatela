@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "*"
+Flask-PyMongo = "*"
+graphene = "*"
+Flask-GraphQL = "*"
+graphene-mongo = "*"
+PyJWT = "<2.0.0"
+Flask-GraphQL-Auth = "*"
+uWSGI = "*"
+flask-mongoengine = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[packages.pymongo]
+extras = [ "srv",]
+version = "*"
